@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D52E11E1DABF94C00B71FE5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11A1DABF94C00B71FE5 /* Bolts.framework */; };
+		1D52E11F1DABF94C00B71FE5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11B1DABF94C00B71FE5 /* FBSDKCoreKit.framework */; };
+		1D52E1201DABF94C00B71FE5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11C1DABF94C00B71FE5 /* FBSDKLoginKit.framework */; };
+		1D52E1211DABF94C00B71FE5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11D1DABF94C00B71FE5 /* FBSDKShareKit.framework */; };
+		1D52E1231DAC018200B71FE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D52E1221DAC018200B71FE5 /* GoogleService-Info.plist */; };
 		1D8BE0551DA6AE9E001EA9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE0541DA6AE9E001EA9FC /* AppDelegate.swift */; };
 		1D8BE0571DA6AE9E001EA9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE0561DA6AE9E001EA9FC /* ViewController.swift */; };
 		1D8BE05A1DA6AE9E001EA9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0581DA6AE9E001EA9FC /* Main.storyboard */; };
 		1D8BE05C1DA6AE9E001EA9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE05B1DA6AE9E001EA9FC /* Assets.xcassets */; };
 		1D8BE05F1DA6AE9E001EA9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE05D1DA6AE9E001EA9FC /* LaunchScreen.storyboard */; };
+		1D8BE0761DA6AF46001EA9FC /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0721DA6AF46001EA9FC /* NotoSans-Bold.ttf */; };
+		1D8BE0771DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0731DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf */; };
+		1D8BE0781DA6AF46001EA9FC /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0741DA6AF46001EA9FC /* NotoSans-Italic.ttf */; };
+		1D8BE0791DA6AF46001EA9FC /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0751DA6AF46001EA9FC /* NotoSans-Regular.ttf */; };
+		1D8BE07B1DA6B477001EA9FC /* MaterialVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE07A1DA6B477001EA9FC /* MaterialVIew.swift */; };
+		1D8BE07D1DA6B4C3001EA9FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE07C1DA6B4C3001EA9FC /* Constants.swift */; };
+		1D8BE0801DA6BB4E001EA9FC /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE07F1DA6BB4E001EA9FC /* MaterialButton.swift */; };
+		1D8BE0821DA6BFA8001EA9FC /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE0811DA6BFA8001EA9FC /* MaterialTextField.swift */; };
+		1DB7BF361DAD63FA003B8D25 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB7BF351DAD63FA003B8D25 /* DataService.swift */; };
+		AA94A46ED16A08DF3291D823 /* Pods_devslopes_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB96AB7F0F894EBE23BBC4EA /* Pods_devslopes_showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D52E11A1DABF94C00B71FE5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1D52E11B1DABF94C00B71FE5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1D52E11C1DABF94C00B71FE5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1D52E11D1DABF94C00B71FE5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		1D52E1221DAC018200B71FE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1D8BE0511DA6AE9E001EA9FC /* devslopes-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8BE0541DA6AE9E001EA9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D8BE0561DA6AE9E001EA9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,18 @@
 		1D8BE05B1DA6AE9E001EA9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D8BE05E1DA6AE9E001EA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D8BE0601DA6AE9E001EA9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8BE0721DA6AF46001EA9FC /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1D8BE0731DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1D8BE0741DA6AF46001EA9FC /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		1D8BE0751DA6AF46001EA9FC /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		1D8BE07A1DA6B477001EA9FC /* MaterialVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialVIew.swift; sourceTree = "<group>"; };
+		1D8BE07C1DA6B4C3001EA9FC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D8BE07F1DA6BB4E001EA9FC /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		1D8BE0811DA6BFA8001EA9FC /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		1DB7BF351DAD63FA003B8D25 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BD64F42146E36D3242DB856E /* Pods-devslopes-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-showcase/Pods-devslopes-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		CCF55EDCB6EC2521D7A83D65 /* Pods-devslopes-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-showcase/Pods-devslopes-showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		FB96AB7F0F894EBE23BBC4EA /* Pods_devslopes_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA94A46ED16A08DF3291D823 /* Pods_devslopes_showcase.framework in Frameworks */,
+				1D52E11F1DABF94C00B71FE5 /* FBSDKCoreKit.framework in Frameworks */,
+				1D52E1211DABF94C00B71FE5 /* FBSDKShareKit.framework in Frameworks */,
+				1D52E1201DABF94C00B71FE5 /* FBSDKLoginKit.framework in Frameworks */,
+				1D52E11E1DABF94C00B71FE5 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D52E1191DABF8F800B71FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D52E11A1DABF94C00B71FE5 /* Bolts.framework */,
+				1D52E11B1DABF94C00B71FE5 /* FBSDKCoreKit.framework */,
+				1D52E11C1DABF94C00B71FE5 /* FBSDKLoginKit.framework */,
+				1D52E11D1DABF94C00B71FE5 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D8BE0481DA6AE9E001EA9FC = {
 			isa = PBXGroup;
 			children = (
 				1D8BE0531DA6AE9E001EA9FC /* devslopes-showcase */,
 				1D8BE0521DA6AE9E001EA9FC /* Products */,
+				EB2129CA66D41C29120408D1 /* Pods */,
+				ECACD2A7B08371B74FA905E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +105,89 @@
 			isa = PBXGroup;
 			children = (
 				1D8BE0541DA6AE9E001EA9FC /* AppDelegate.swift */,
+				1DB7BF371DAD6400003B8D25 /* Singelton */,
+				1D8BE07E1DA6B4D9001EA9FC /* Util */,
+				1D8BE0691DA6AED6001EA9FC /* Resources */,
+				1D8BE0661DA6AEB0001EA9FC /* Controller */,
 				1D8BE0561DA6AE9E001EA9FC /* ViewController.swift */,
+				1D8BE0681DA6AEC7001EA9FC /* Model */,
+				1D8BE0671DA6AEB8001EA9FC /* View */,
 				1D8BE0581DA6AE9E001EA9FC /* Main.storyboard */,
 				1D8BE05B1DA6AE9E001EA9FC /* Assets.xcassets */,
 				1D8BE05D1DA6AE9E001EA9FC /* LaunchScreen.storyboard */,
 				1D8BE0601DA6AE9E001EA9FC /* Info.plist */,
+				1D52E1221DAC018200B71FE5 /* GoogleService-Info.plist */,
+				1D52E1191DABF8F800B71FE5 /* Frameworks */,
 			);
 			path = "devslopes-showcase";
+			sourceTree = "<group>";
+		};
+		1D8BE0661DA6AEB0001EA9FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1D8BE0671DA6AEB8001EA9FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D8BE07A1DA6B477001EA9FC /* MaterialVIew.swift */,
+				1D8BE0811DA6BFA8001EA9FC /* MaterialTextField.swift */,
+				1D8BE07F1DA6BB4E001EA9FC /* MaterialButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1D8BE0681DA6AEC7001EA9FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1D8BE0691DA6AED6001EA9FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D8BE0721DA6AF46001EA9FC /* NotoSans-Bold.ttf */,
+				1D8BE0731DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf */,
+				1D8BE0741DA6AF46001EA9FC /* NotoSans-Italic.ttf */,
+				1D8BE0751DA6AF46001EA9FC /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1D8BE07E1DA6B4D9001EA9FC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1D8BE07C1DA6B4C3001EA9FC /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		1DB7BF371DAD6400003B8D25 /* Singelton */ = {
+			isa = PBXGroup;
+			children = (
+				1DB7BF351DAD63FA003B8D25 /* DataService.swift */,
+			);
+			name = Singelton;
+			sourceTree = "<group>";
+		};
+		EB2129CA66D41C29120408D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF55EDCB6EC2521D7A83D65 /* Pods-devslopes-showcase.debug.xcconfig */,
+				BD64F42146E36D3242DB856E /* Pods-devslopes-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECACD2A7B08371B74FA905E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB96AB7F0F894EBE23BBC4EA /* Pods_devslopes_showcase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D8BE0631DA6AE9E001EA9FC /* Build configuration list for PBXNativeTarget "devslopes-showcase" */;
 			buildPhases = (
+				232493A2C756973514FEE1A3 /* [CP] Check Pods Manifest.lock */,
 				1D8BE04D1DA6AE9E001EA9FC /* Sources */,
 				1D8BE04E1DA6AE9E001EA9FC /* Frameworks */,
 				1D8BE04F1DA6AE9E001EA9FC /* Resources */,
+				035759414E9C60E195C9D3D0 /* [CP] Embed Pods Frameworks */,
+				5E1370AE61EA5B29689F61BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +251,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8BE0761DA6AF46001EA9FC /* NotoSans-Bold.ttf in Resources */,
+				1D52E1231DAC018200B71FE5 /* GoogleService-Info.plist in Resources */,
 				1D8BE05F1DA6AE9E001EA9FC /* LaunchScreen.storyboard in Resources */,
+				1D8BE0771DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf in Resources */,
+				1D8BE0781DA6AF46001EA9FC /* NotoSans-Italic.ttf in Resources */,
 				1D8BE05C1DA6AE9E001EA9FC /* Assets.xcassets in Resources */,
 				1D8BE05A1DA6AE9E001EA9FC /* Main.storyboard in Resources */,
+				1D8BE0791DA6AF46001EA9FC /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		035759414E9C60E195C9D3D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devslopes-showcase/Pods-devslopes-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		232493A2C756973514FEE1A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1370AE61EA5B29689F61BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-devslopes-showcase/Pods-devslopes-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D8BE04D1DA6AE9E001EA9FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8BE0821DA6BFA8001EA9FC /* MaterialTextField.swift in Sources */,
+				1DB7BF361DAD63FA003B8D25 /* DataService.swift in Sources */,
+				1D8BE07B1DA6B477001EA9FC /* MaterialVIew.swift in Sources */,
 				1D8BE0571DA6AE9E001EA9FC /* ViewController.swift in Sources */,
 				1D8BE0551DA6AE9E001EA9FC /* AppDelegate.swift in Sources */,
+				1D8BE07D1DA6B4C3001EA9FC /* Constants.swift in Sources */,
+				1D8BE0801DA6BB4E001EA9FC /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +434,13 @@
 		};
 		1D8BE0641DA6AE9E001EA9FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF55EDCB6EC2521D7A83D65 /* Pods-devslopes-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/devslopes-showcase",
+				);
 				INFOPLIST_FILE = "devslopes-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tobiasgozzi.devslopes-showcase";
@@ -258,8 +450,13 @@
 		};
 		1D8BE0651DA6AE9E001EA9FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD64F42146E36D3242DB856E /* Pods-devslopes-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/devslopes-showcase",
+				);
 				INFOPLIST_FILE = "devslopes-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tobiasgozzi.devslopes-showcase";
@@ -286,6 +483,7 @@
 				1D8BE0651DA6AE9E001EA9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
