@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3E380B1DAED160002DC90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E380A1DAED160002DC90D /* Assets.xcassets */; };
 		1D52E11E1DABF94C00B71FE5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11A1DABF94C00B71FE5 /* Bolts.framework */; };
 		1D52E11F1DABF94C00B71FE5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11B1DABF94C00B71FE5 /* FBSDKCoreKit.framework */; };
 		1D52E1201DABF94C00B71FE5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D52E11C1DABF94C00B71FE5 /* FBSDKLoginKit.framework */; };
@@ -15,7 +16,6 @@
 		1D8BE0551DA6AE9E001EA9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE0541DA6AE9E001EA9FC /* AppDelegate.swift */; };
 		1D8BE0571DA6AE9E001EA9FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BE0561DA6AE9E001EA9FC /* ViewController.swift */; };
 		1D8BE05A1DA6AE9E001EA9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0581DA6AE9E001EA9FC /* Main.storyboard */; };
-		1D8BE05C1DA6AE9E001EA9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE05B1DA6AE9E001EA9FC /* Assets.xcassets */; };
 		1D8BE05F1DA6AE9E001EA9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE05D1DA6AE9E001EA9FC /* LaunchScreen.storyboard */; };
 		1D8BE0761DA6AF46001EA9FC /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0721DA6AF46001EA9FC /* NotoSans-Bold.ttf */; };
 		1D8BE0771DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8BE0731DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf */; };
@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D3E380A1DAED160002DC90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D52E11A1DABF94C00B71FE5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		1D52E11B1DABF94C00B71FE5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		1D52E11C1DABF94C00B71FE5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		1D8BE0541DA6AE9E001EA9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D8BE0561DA6AE9E001EA9FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D8BE0591DA6AE9E001EA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1D8BE05B1DA6AE9E001EA9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D8BE05E1DA6AE9E001EA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D8BE0601DA6AE9E001EA9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D8BE0721DA6AF46001EA9FC /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 				1D8BE0691DA6AED6001EA9FC /* Resources */,
 				1D8BE0661DA6AEB0001EA9FC /* Controller */,
 				1D8BE0561DA6AE9E001EA9FC /* ViewController.swift */,
+				1D3E380A1DAED160002DC90D /* Assets.xcassets */,
 				1D8BE0681DA6AEC7001EA9FC /* Model */,
 				1D8BE0671DA6AEB8001EA9FC /* View */,
 				1D8BE0581DA6AE9E001EA9FC /* Main.storyboard */,
-				1D8BE05B1DA6AE9E001EA9FC /* Assets.xcassets */,
 				1D8BE05D1DA6AE9E001EA9FC /* LaunchScreen.storyboard */,
 				1D8BE0601DA6AE9E001EA9FC /* Info.plist */,
 				1D52E1221DAC018200B71FE5 /* GoogleService-Info.plist */,
@@ -256,8 +256,8 @@
 				1D8BE05F1DA6AE9E001EA9FC /* LaunchScreen.storyboard in Resources */,
 				1D8BE0771DA6AF46001EA9FC /* NotoSans-BoldItalic.ttf in Resources */,
 				1D8BE0781DA6AF46001EA9FC /* NotoSans-Italic.ttf in Resources */,
-				1D8BE05C1DA6AE9E001EA9FC /* Assets.xcassets in Resources */,
 				1D8BE05A1DA6AE9E001EA9FC /* Main.storyboard in Resources */,
+				1D3E380B1DAED160002DC90D /* Assets.xcassets in Resources */,
 				1D8BE0791DA6AF46001EA9FC /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
