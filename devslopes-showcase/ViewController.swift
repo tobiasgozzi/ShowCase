@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         facebookManager.logInWithReadPermissions(["email"], fromViewController: nil) { (rest: FBSDKLoginManagerLoginResult!, err: NSError!) in
             if err != nil {
                 print("facebook error \(err)")
+                
             } else {
                 let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
                 
@@ -48,6 +49,11 @@ class ViewController: UIViewController {
                         print("login failed. \(err)")
                     } else {
                         print("logged in \(userData?.uid)")
+
+                        if let userProvider = userData?.providerData[0].providerID {
+                            DataService.ds.createUser(userData!.uid, provider: userProvider)
+                        }
+                        
                         NSUserDefaults.standardUserDefaults().setValue(userData?.uid, forKey: KEY_UID)
                         self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                     }
@@ -66,7 +72,7 @@ class ViewController: UIViewController {
             let credential = FIREmailPasswordAuthProvider.credentialWithEmail(email, password: password)
             FIRAuth.auth()?.signInWithCredential(credential, completion: { (userData: FIRUser?, error: NSError?) in
                 if error != nil {
-                    
+
                     switch error!.code {
                     case 17011:
                         FIRAuth.auth()?.createUserWithEmail(email, password: password, completion: { (user: FIRUser?, err: NSError?) in
@@ -83,6 +89,11 @@ class ViewController: UIViewController {
                             }
                             else {
                                 print("reg succeded \(user?.email)")
+                                
+                                if let userProvider = user?.providerData[0].providerID {
+                                    DataService.ds.createUser(user!.uid, provider: userProvider)
+
+                                }
                                 
                                 //next method should have UID as argument and not email
                                 NSUserDefaults.standardUserDefaults().setValue(user?.email, forKey: KEY_UID)
@@ -107,9 +118,9 @@ class ViewController: UIViewController {
                         break
                     }
                     
-                    print(error?.code)
-                    print(error?.localizedDescription)
-                    //print(error)
+//                    print(error?.code)
+//                    print(error?.localizedDescription)
+//                    print(error)
                 } else {
                     print("succeded")
                     self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
@@ -130,5 +141,8 @@ class ViewController: UIViewController {
 
     }
 
+    
+    func createUser() {
+    }
 }
 

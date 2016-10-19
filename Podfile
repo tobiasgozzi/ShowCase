@@ -10,6 +10,8 @@ target 'devslopes-showcase' do
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
   pod 'Firebase/Database'
+
+pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :tag => '3.5.1'
   # Pods for devslopes-showcase
 
 end
